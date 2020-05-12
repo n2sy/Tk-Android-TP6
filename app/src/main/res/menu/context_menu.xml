@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item android:title="Light Mode"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:id="@+id/action_color_light"
+        android:icon="@drawable/icon_sun"
+        />
+
+    <item android:title="Dark Mode"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:id="@+id/action_color_dark"
+        android:icon="@drawable/icon_night"
+        />
+
+</menu>
